@@ -5,7 +5,7 @@ public class Main {
         int bonus = replenishmentAmount / 100;
         int grandTotal = invoiceAmout + replenishmentAmount;
 
-        if (replenishmentAmount < 1000) {
+        if (replenishmentAmount <= 1000) {
             bonus = 0;
         }
         System.out.println("Итоговый бонус: " + bonus);
